@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-header{
+.header{
 	background-color:#011e29;
 	color:white;
 	min-height:100px;
@@ -7,6 +7,36 @@ header{
 	display:flex;
 	align-items:center;
 	justify-content:center;
+	padding:5px;
+	text-align:center;
+}
+body{
+	background-color : #f5f5f5;
+}
+img{
+	height:150px;
+	widows:150px;
+}
+.container{
+	display:flex;
+	gap:20px;
+}
+.latest-news-section{
+	padding:15px;
+	width:30%;
+	background-color:white;
+	border-radius:5px;
+}
+.main-article{
+	padding:15px;
+	width:30%;
 
-	
+	background-color:white;
+	border-radius:5px;
+}
+.pictorial-news-section{
+	padding:15px;
+	width:30%;
+	background-color:white;
+	border-radius:5px;
 }
